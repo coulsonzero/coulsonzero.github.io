@@ -1,0 +1,78 @@
+/* ======== 图片切换按钮 ======== */
+.img-toggle {
+    display: flex;
+    column-gap: 2rem;
+    position: absolute;
+    bottom: 9%;
+    left: 5%;
+    padding-right: inherit;
+    z-index: 2;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 2px solid rgb(212 212 212 / 53%);
+    color: hsl(0, 17%, 86%);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    transition: all 0.1s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    margin: 0 1rem;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    content: '';
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 2.5px);
+    top: calc(50% - 5px);
+    width: 10px;
+    height: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.swiper-button-next::before {
+    transform: translateX(-50%) rotate(225deg);
+}
+/*
+.swiper-button-prev::before,
+.swiper-button-next::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-right: none;
+    border-top: none;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+}
+.swiper-button-prev::before {
+    left: calc(50% + 2.5px);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+.swiper-button-next::before {
+    left: calc(50% - 2.5px);
+    transform: translate(-50%, -50%) rotate(225deg);
+}
+*/
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    border-color: hsla(0, 0%, 97%, .9)
+}

@@ -1,0 +1,92 @@
+/*========== dark-theme Styles ==========*/
+
+.dark-theme header {
+    /* background: rgba(48, 47, 47, 0.75); */
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    -moz-backdrop-filter: none;
+    color: rgba(253, 254, 255, 0.8);
+}
+
+.dark-theme .scroll-header {
+    box-shadow: 0 2px 4px hsla(0, 0%, 4%, .3);
+}
+
+.dark-theme .scroll-header.is-active {
+    background: rgba(34, 34, 34, 0.8);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dark-theme .logo,
+.dark-theme .icons,
+.dark-theme .navbar li a {
+    color: rgb(223, 221, 221);
+}
+
+.dark-theme .nav_logo {
+    background: rgba(117, 180, 253, 0.85);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+.dark-theme .navbar li a.active,
+.dark-theme .navbar li a:hover {
+    color: rgb(214, 121, 67);
+}
+
+.dark-theme .logo svg path,
+.dark-theme .logo svg g {
+    fill: rgb(218, 216, 216);
+}
+
+/*
+.dark-theme section:nth-of-type(odd) {
+    color: black;
+    background: white;
+}
+
+.dark-theme section:nth-of-type(even) {
+    color: rgba(255, 255, 255, 0.8);
+    background: #150c21;
+}
+*/
+/* ========== About Theme ============ */
+.dark-theme .about {
+    background: #131417;
+}
+
+.dark-theme .about__title {
+    color: rgb(223, 221, 221);
+}
+
+.dark-theme .about-link-item {
+    background: hsl(223, 14%, 20%);
+    box-shadow: 5px 0 15px rgb(0 0 0 / 25%);
+    backdrop-filter: initial;
+    -webkit-backdrop-filter: initial;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+
+}
+
+.dark-theme .about-link-item span {
+    color: #fff;
+    font-weight: normal;
+}
+
+.dark-theme .about-link-item:hover span {
+    color: rgb(197, 80, 44);
+    font-weight: 700;
+}
+
+.dark-theme .about-link-item:hover {
+    box-shadow: 2px 2px 5px rgba(36, 36, 36, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.dark-theme :root {
+    --text-color: red;
+}

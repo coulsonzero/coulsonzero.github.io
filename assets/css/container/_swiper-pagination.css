@@ -1,0 +1,43 @@
+/* ======== 分页器(底部) ======== */
+
+.home .swiper-pagination {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5rem;
+    background: rgba(34, 34, 34, 0.9);
+    display: flex;
+    padding: 1rem;
+    box-shadow: 5px 0 15px rgba(0,0,0,.25);
+    /* box-shadow: 0 4px 30px rgba(0,0,0,.5); */
+    opacity: 0;
+}
+
+.home .swiper-pagination:hover,
+.home .swiper-pagination.active {
+    opacity: 1;
+}
+
+.home .swiper-pagination .img-btn {
+    height: 2rem;
+    width: 2rem;
+    background: rgba(255, 255, 255, .9);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 .5rem;
+    transition: all .1s ease;
+}
+
+.home .swiper-pagination:hover .img-btn {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.home .swiper-pagination .img-btn.active {
+    background: rgba(230, 131, 74, .9);
+}
+
+.home .swiper-pagination:hover .img-btn.active {
+    background: rgba(230, 131, 74, 1);
+}
+

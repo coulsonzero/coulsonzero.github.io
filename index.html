@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoulsonZero</title>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/libs/swiper-bundle.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+
+    <!--=============== BOXICONS =================-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== Google Fonts =============-->
+    <link href="https://fonts.font.im/css?family=Poppins|Cinzel+Decorative|Bellefair|Cagliostro|Parisienne:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--=============== JQuery ===================-->
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.js"></script> -->
+
+    <!--=============== CSS ======================-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+<body>
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="logo">
+                <img src="./assets/imgs/header/Z-logo.png" alt="Z" class="nav_logo">
+                <span>Coulson Zero</span>
+            </a>
+            <ul class="navbar">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#" target="_black">Docs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+            <div class="icons">
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+                <span class="datetime">20:35</span>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+
+            <!-- ===== 文本内容 ===== -->
+            <div class="content">
+                <div class="content-name">
+                    <span>C</span>oulson <span>Z</span>ero
+                </div>
+                <p>front-end developer</p>
+                <a href="#" class="content-btn">
+                    <!-- <span>About Me</span> -->
+                    <span>Get Started</span>
+                    <div class="arrow">
+                        <div class="bar"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- background-color -->
+            <div class="home__background"></div>
+
+            <!-- ===== 背景图片 ===== -->
+            <img src="./assets/imgs/homeBg/1.jpg" alt="homeBg" class="img-slider">
+
+            <!-- ===== 背景图片分页器 ===== -->
+            <div class="swiper-pagination">
+                <span data-src="./assets/imgs/homeBg/1.jpg" class="img-btn active"></span>
+                <span data-src="./assets/imgs/homeBg/2.jpg" class="img-btn"></span>
+                <span data-src="./assets/imgs/homeBg/3.jpg" class="img-btn"></span>
+                <span data-src="./assets/imgs/homeBg/4.jpg" class="img-btn"></span>
+                <span data-src="./assets/imgs/homeBg/5.jpg" class="img-btn"></span>
+                <span data-src="./assets/imgs/homeBg/6.jpg" class="img-btn"></span>
+                <span data-src="./assets/imgs/homeBg/7.jpg" class="img-btn"></span>
+            </div>
+
+            <!-- ===== 背景图片切换按钮 ===== -->
+            <div class="img-toggle">
+                <div class="swiper-button-prev swiper-button" onclick="prev()"></div>
+                <div class="swiper-button-next swiper-button" onclick="next()"></div>
+            </div>
+
+
+            <!-- ===== icons ====== -->
+            <ul class="social">
+                <li class="social-item">
+                    <a href="https://github.com/coulsonzero" target="_black" rel="noopener" itemprop="sameAs">
+                        <img src="./assets/imgs/home/github.svg ">
+                    </a>
+                    <div class="box-tooltip" data-name="github">
+                        <div class="tooltip-text" data-color="github">Github</div>
+                    </div>
+                </li>
+                <li class="social-item">
+                    <a href="https://codepen.io/coulsonzero" target="_black" rel="noopener" itemprop="sameAs">
+                        <img src="./assets/imgs/home/codepen.svg " alt="codepen">
+                    </a>
+                    <div class="box-tooltip" data-name="codepen">
+                        <div class="tooltip-text" data-color="codepen">CodePen</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon-line"></div>
+                </li>
+            </ul>
+            <!-- === Awwwards === -->
+            <div id="awwwards" class="awwwards">
+                <a href="http://www.awwwards.com" target="_blank">
+                    <img src="./assets/imgs/home/awwwards.png" alt="awwwards">
+                </a>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about" id="about">
+            <div class="about__title">Website</div>
+            <div class="about-wrapper">
+                <div class="about-links">
+                    <!--
+                    <a href="#" class="about-link-item" target="_blank">
+                        <img src="https://cpwebassets.codepen.io/assets/packs/react-logo-1a11776af9f9ee862af2acb87703a99f.svg"
+                        alt="React" />
+                        <span>React</span>
+                    </a>
+                    <a href="#" class="about-link-item">
+                        <img src="https://cpwebassets.codepen.io/assets/packs/vue-logo-7acfd91310ad2aa8593915dd904cf269.svg"
+                        alt="Vue" />
+                        <span>Vue</span>
+                    </a>
+                    <a href="#" class="about-link-item">
+                        <img src="https://cpwebassets.codepen.io/assets/packs/sass-8e766e9562509cb3fa14264580c5c0f9.svg"
+                        alt="Sass" />
+                        <span>Scss</span>
+                    </a>
+                    <a href="#" class="about-link-item">
+                        <img src="./assets/imgs/boxicon.svg" alt="boxicon"/>
+                        <span>Boxicon</span>
+                    </a>
+                    <a href="#" class="about-link-item">
+                        <img src="./assets/imgs/swiper.svg" alt="swiper"/>
+                        <span>swiper</span>
+                    </a>
+                    <a href="#" class="about-link-item">
+                        <img src="./assets/imgs/echarts.png" alt="echarts"/>
+                        <span>Echarts</span>
+                    </a>
+                    -->
+                </div>
+                <img src="https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg" alt=""
+                    class="about-wrapper-bg" />
+            </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact" id="contact">
+            <div class="Title">Contact</div>
+        </section>
+
+        <!--==================== COMMUNITY ====================-->
+        <section class="Community" id="community">
+            <div class="Title">Community</div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <!--
+    <footer class="footer">
+        <div class="footer-container ">
+            <ul>
+                <li><a href="#home ">Home</a></li>
+                <li><a href="#about ">About</a></li>
+                <li><a href="#contact ">Contact</a></li>
+                <li><a href="#community ">Community</a></li>
+            </ul>
+            <p>&copy; 2022 coulsonzero. All rights reserved.</p>
+        </div>
+    </footer>
+    -->
+    <footer class="footer" id="footer">
+        <div class="container footer__container">
+            <div class="footer__inner">
+                <div class="row justify-content-between">
+                    <div class="col">
+                        <a class="nav-main__link" href="#">
+                            <div class="logo-main">
+                                <div class="logo-main__text1">Coulson&nbsp;Zero</div>
+                            </div>
+                        </a>
+                        <div class="footer__socials">
+                            <div class="socials-links__link-group">
+                                <div class="socials-links__link-el"><a class="socials-links__link" href="https://www.instagram.com/juless.joy" rel="noopener" target="_blank">Instagram</a></div>
+                                <div class="socials-links__link-el"><a class="socials-links__link" href="https://t.me/juless_joy" rel="noopener" target="_blank">Telegram</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="menu">
+                            <div class="menu__list d-flex">
+                                <div class="menu-el menu__list-el">
+                                    <!-- m-is-active -->
+                                    <a class="menu-el__link" href="#home">
+                                        <div class="menu-el__text">Home</div>
+                                    </a>
+                                </div>
+                                <div class="menu-el menu__list-el">
+                                    <a class="menu-el__link" href="#about">
+                                        <div class="menu-el__text">About</div>
+                                    </a>
+                                </div>
+                                <div class="menu-el menu__list-el">
+                                    <a class="menu-el__link" href="#footer">
+                                        <div class="menu-el__text">Docs</div>
+                                    </a>
+                                </div>
+
+                                <div class="menu-el menu__list-el">
+                                    <a class="menu-el__link" href="#contact">
+                                        <div class="menu-el__text">Contact</div>
+                                    </a>
+                                </div>
+                                <div class="menu-el menu__list-el">
+                                    <a class="menu-el__link" href="#community">
+                                        <div class="menu-el__text">Community</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom footer__bottom">
+                    <div class="footer-bottom__menu">
+                        <div class="footer-bottom__menu-el">
+                            <a class="footer-bottom__link" href="#footer">
+                            Privacy Policy
+                            </a>
+                        </div>
+                        <div class="copyright">
+                            &copy; 2022 coulsonzero. All rights reserved.
+                        </div>
+                    </div>
+
+
+                    <div class="footer-bottom__menu devby">
+                        <div class="footer-bottom__menu-el">Development<a class="footer-bottom__link" href="#footer">CoulsonZero</a></div>
+                        <div class="footer-bottom__menu-el">Design<a class="footer-bottom__link" href="#footer">CoulsonZero</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="./assets/libs/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--==================== Script ====================-->
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/getLinks.js"></script>
+
+
+
+</body>
+
+</html>

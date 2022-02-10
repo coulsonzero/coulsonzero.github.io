@@ -1,0 +1,152 @@
+
+/* ========== icons(右侧) ========== */
+
+.social {
+    position: absolute;
+    top: 70%;
+    right: 3%;
+    z-index: 7;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    transition: opacity .35s ease .75s;
+}
+
+.social li:not(:last-child) {
+    position: relative;
+    margin: 1.5rem;
+    /* margin-top: 2rem; */
+    padding: .5rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    transition: all .1s ease-out;
+}
+
+.social li:not(:last-child):hover img {
+    position: relative;
+    left: 0;
+    filter: drop-shadow(rgba(253, 253, 253, .9) 0 0);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+}
+
+
+/* ===== icon 线条 ====== */
+
+.social li:last-child {
+    margin-top: 2rem;
+}
+
+
+.social .icon-line {
+    position: absolute;
+    right: 48%;
+    /* right: 40%; */
+    transform: translateX(-50%);
+    width: 1.5px;
+    height: 120px;
+    background: rgba(233, 233, 233, 0.4);
+}
+
+.social:hover .icon-line {
+    background: rgba(219, 251, 252, 0.8);
+}
+
+
+/* ========== 图标提示信息Tootips(右侧) ========= */
+
+.box-tooltip {
+    visibility: visible;
+    opacity: 0;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-bottom: 8px;
+    transform: translateY(-15px);
+    transition: all .3s ease-in-out;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.box-tooltip[data-name=codepen] {
+    opacity: 0;
+    bottom: -220%;
+    /* bottom: -280%; */
+}
+
+.social li {
+    display: flex;
+    flex-direction: column;
+}
+
+.social li:hover .box-tooltip {
+    opacity: 1;
+    bottom: 70%;
+    transition: all .3s ease-in-out;
+}
+
+.social li:hover .box-tooltip[data-name="codepen"] {
+    bottom: -180%;
+    /* bottom: -250%; */
+    transition: all .3s ease-in-out;
+}
+
+
+/* ======== 文字提示 ======== */
+
+.tooltip-text {
+    position: relative;
+    top: 0;
+    left: -50%;
+    width: auto;
+    padding: 8px 16px;
+    background-color: #49c5b6;
+    white-space: nowrap;
+    /* color: #fff; */
+    color: #202121;
+    font-size: 1.2rem;
+    line-height: normal;
+    text-align: center;
+    border-radius: 30px;
+    z-index: 1;
+    letter-spacing: 2px;
+}
+
+.tooltip-text[data-color=github] {
+    background-color: #d9e4c4;
+}
+
+.tooltip-text[data-color=codepen] {
+    background-color: #d2c4e4;
+    letter-spacing: 1px;
+}
+
+
+/* ========== 提示框三角形 ========= */
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 0;
+    width: 0;
+    margin-left: -6px;
+    border: solid transparent;
+    border-top-color: #49c5b6;
+    border-width: 8px 6px;
+    /* transform: translate(4px, -1px); */
+}
+
+.tooltip-text[data-color=github]::after {
+    border-top-color: #d9e4c4;
+}
+
+.tooltip-text[data-color=codepen]::after {
+    border-top-color: #d2c4e4;
+    /* transform: rotateX(180deg) translate(4px, -100%); */
+    transform: rotateX(180deg) translateY(-100%);
+    top: -90%;
+}

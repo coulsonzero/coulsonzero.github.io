@@ -1,0 +1,236 @@
+/*=============== Footer ===============*/
+
+
+/*
+.footer {
+    background: #3e3e3e;
+    padding: 30px 0 10px 0;
+    min-height: 20vh;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.footer-container ul li a {
+    position: relative;
+    color: hsla(0, 0%, 100%, .6);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.footer-container ul li a:hover {
+    color: hsla(0, 0%, 100%, 1)
+}
+
+.footer-container ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    background: rgb(72, 146, 91);
+    width: 100%;
+    height: 3px;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+.footer-container ul li:hover a::after {
+    transform: scaleX(1);
+}
+
+.footer-container p {
+    font-size: 1.6rem;
+    color: hsla(0, 0%, 100%, .6);
+}
+*/
+
+.footer {
+    padding-top: 42px;
+    background-color: #f8f8f8;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5.2083333333vw;
+    padding-right: 5.2083333333vw;
+    width: 100%;
+    max-width: 1920px;
+}
+
+.footer__inner {
+    border-top: 1px solid #373b43;
+    padding-bottom: 30px;
+    padding-top: 90px;
+    position: relative;
+}
+
+.justify-content-between {
+    -webkit-box-pack: justify!important;
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -5.2083333333vw;
+    margin-right: -5.2083333333vw;
+}
+
+.col {
+    -ms-flex-preferred-size: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    min-height: 1px;
+    padding-left: 5.2083333333vw;
+    padding-right: 5.2083333333vw;
+    position: relative;
+    width: 100%;
+}
+
+.col-auto {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    max-width: none;
+    width: auto;
+    -webkit-box-flex: 0;
+    min-height: 1px;
+    padding-left: 5.2083333333vw;
+    padding-right: 5.2083333333vw;
+    position: relative;
+}
+
+.nav-main__link {
+    position: relative;
+    display: inline-block;
+}
+
+.footer-bottom {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.footer a {
+    -webkit-text-decoration-skip: objects;
+    background-color: transparent;
+    text-decoration: none;
+    color: #323232;
+}
+
+.logo-main {
+    color: #122222;
+    display: block;
+}
+
+.footer__socials {
+    display: none;
+}
+
+.socials-links__link-el {
+    padding: 0 1.25vw;
+}
+
+.socials-links__link {
+    color: #1b1c1d;
+    font-size: 1.25vw;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    font-size: 18px;
+}
+
+.menu__list {
+    margin-left: auto;
+}
+
+.d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.menu__list-el {
+    padding: 0 16px;
+}
+
+.m-is-active .menu-el__link,
+.menu-el__link:hover {
+    border-bottom-color: #122222;
+    color: initial;
+    text-decoration: none;
+}
+
+.menu-el__link {
+    border-bottom: 1px solid transparent;
+    color: #122222;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.footer-bottom__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -15px;
+}
+
+.footer-bottom__menu-el {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #1b1c1d;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+.devby .footer-bottom__link {
+    margin-left: 8px;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.footer-bottom__link {
+    color: #1b1c1d;
+    text-decoration: none;
+}
+
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 -16px;
+}
+
+.logo-main__text1 {
+    font-size: 20px;
+    font-weight: 400;
+    -webkit-font-weight: 700;
+    text-transform: uppercase;
+}

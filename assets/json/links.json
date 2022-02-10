@@ -1,0 +1,57 @@
+{
+    "target": ".about-links",
+    "linkClassName": "about-link-item",
+    "imgPath": "./assets/imgs/websiteLogo/",
+    "link": [
+        {
+            "title": "React",
+            "url": "https://reactjs.org",
+            "fileName": "react.svg"
+        },
+        {
+            "title": "Vue",
+            "url": "https://v3.cn.vuejs.org",
+            "fileName": "vue.svg"
+        },
+        {
+            "title": "Swiper",
+            "url": "https://swiperjs.com",
+            "fileName": "swiper-cn.svg"
+        },
+        {
+            "title": "ScroolReveal",
+            "url": "https://scrollrevealjs.org",
+            "fileName": "scroolReveal.svg"
+        },
+        {
+            "title": "Boxicon",
+            "url": "https://boxicons.com",
+            "fileName": "boxicon.svg"
+        },
+        {
+            "title": "Echarts",
+            "url": "https://echarts.apache.org",
+            "fileName": "echarts.png"
+        },
+        {
+            "title": "Stack Overflow",
+            "url": "https://stackoverflow.com",
+            "fileName": "stackoverflow.svg"
+        },
+        {
+            "title": "Animista",
+            "url": "https://animista.net",
+            "fileName": "animista.svg"
+        },
+        {
+            "title": "Font Awesome",
+            "url": "https://fontawesome.com",
+            "fileName": "fontawesome.svg"
+        },
+        {
+            "title": "Pixabay",
+            "url": "https://pixabay.com/zh/",
+            "fileName": "pixabay.svg"
+        }
+    ]
+}
