@@ -52,6 +52,11 @@
             "title": "Pixabay",
             "url": "https://pixabay.com/zh/",
             "fileName": "pixabay.svg"
+        },
+        {
+            "title": "Vuepress",
+            "url": "https://v2.vuepress.vuejs.org/zh/",
+            "fileName": "vuepress.png"
         }
     ]
 }
