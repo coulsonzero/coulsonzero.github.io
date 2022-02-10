@@ -57,6 +57,11 @@
             "title": "Vuepress",
             "url": "https://v2.vuepress.vuejs.org/zh/",
             "fileName": "vuepress.png"
+        },
+        {
+            "title": "Webpack",
+            "url": "https://webpack.js.org/",
+            "fileName": "webpack.svg"
         }
     ]
 }
