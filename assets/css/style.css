@@ -9,7 +9,7 @@
 
 
 /* ============ Components =========== */
-@import "/assets/css/components/_header.css";
+@import "/assets/css/components/header.css";
 @import "./components/_home.css";
 @import "./components/_about.css";
 @import "./components/_footer.css";
