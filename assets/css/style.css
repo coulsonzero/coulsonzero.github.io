@@ -1,26 +1,26 @@
 /* ============ Config =========== */
-@import "./config/_variables.css";
+@import "./config/variables.css";
 
 /* ================ Base ============== */
-@import "./base/_base.css";
-@import "./base/_selection.css";
-@import "./base/_scroolbar.css";
-@import "./base/_section.css";
+@import "./base/base.css";
+@import "./base/selection.css";
+@import "./base/scroolbar.css";
+@import "./base/section.css";
 
 
 /* ============ Components =========== */
-@import "/assets/css/components/header.css";
-@import "./components/_home.css";
-@import "./components/_about.css";
-@import "./components/_footer.css";
+@import "./components/header.css";
+@import "./components/home.css";
+@import "./components/about.css";
+@import "./components/footer.css";
 
 /* ============ Container =========== */
-@import "./container/_swiper-button.css";
-@import "./container/_swiper-pagination.css";
-@import "./container/_social.css";
+@import "./container/swiper-button.css";
+@import "./container/swiper-pagination.css";
+@import "./container/social.css";
 
 /* ============ Theme =========== */
-@import "./theme/_darkTheme.css";
+@import "./theme/darkTheme.css";
 /* ============ Layout =========== */
-@import "./layout/_layout.css";
+@import "./layout/layout.css";
 
