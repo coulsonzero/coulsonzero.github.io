@@ -1,0 +1,307 @@
+
+.contact {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.contact .Title {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -20%);
+}
+.contact__container {
+    width: 100%;
+    position: relative;
+}
+
+.code__card {
+    position: relative;
+    width: 300px;
+    height: 140px;
+    background: #1d1e22;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .5);
+    border-radius: 6px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 400;
+    font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+.code__card.card__position {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    /* right: -30px; */
+    /* top: 130px */
+}
+
+.code__card header {
+    display: grid;
+    grid-template-columns: 36px auto 36px;
+    align-items: center;
+}
+
+.code__card header svg {
+    margin: 10px;
+}
+
+.code__card header h1 {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    font-size: 13px;
+    letter-spacing: 1.57px;
+    color: #c5c8d4;
+    margin: 0
+}
+
+@media (max-width: 1100px) {
+    .code__card.card__position {
+        top: 80px;
+        right: 2.5%
+    }
+}
+
+@media (max-width: 550px) {
+    .code__card.card__position {
+        top: 80px;
+        right: 2.5%
+    }
+}
+
+.card__container {
+    margin: 0 10px 10px;
+    color: var(--cp-color-1)
+}
+
+.card__container, .card__container code {
+    font-family: var(--cp-font-family-monospace);
+    font-size: 13px;
+    line-height: 1.3
+}
+
+.card__container p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1
+}
+.color-orange {
+    color: #de7300
+}
+
+.color-yellow {
+    color: #e1ca72
+}
+
+.color-green {
+    color: #74b087
+}
+
+.color-purple {
+    color: #9f8198
+}
+
+.color-blue {
+    color: #7a99ad
+}
+
+.color-gray {
+    color: #666
+}
+
+.line1, .line2, .line3, .line4, .line5 {
+    width: 0;
+    margin: 0 0 -1rem;
+    height: 1.2em;
+    border-right: .15em solid transparent;
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap
+}
+
+.line1 {
+    animation: animation_line1 3s steps(30) 1s forwards, animation_cursor 1s linear 0s 3
+}
+
+.line2 {
+    animation: animation_line2 3s steps(30) 3s forwards, animation_cursor 1s linear 3s 3
+}
+
+.line3 {
+    animation: animation_line3 3s steps(30) 6s forwards, animation_cursor 1s linear 6s 3
+}
+
+.line4 {
+    animation: animation_line4 3s steps(30) 9s forwards, animation_cursor 1s linear 9s 3
+}
+
+.line1, .line3, .line4 {
+    animation-duration: 1s;
+    animation-timing-function: steps(10);
+}
+
+.line5 {
+    border-color: transparent;
+    animation: animation_line5 3s steps(30) 12s forwards, animation_cursor_persist 1s linear 12s infinite
+}
+
+.line2 {
+    margin-left: 2rem
+}
+
+.line3, .line4, .line5 {
+    margin-left: 4rem
+}
+
+@keyframes animation_line1 {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 60px
+    }
+}
+
+@keyframes animation_line2 {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 220px
+    }
+}
+
+@keyframes animation_line3 {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 70px
+    }
+}
+
+@keyframes animation_line4 {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 75px
+    }
+}
+
+@keyframes animation_line5 {
+    0% {
+        width: 0
+    }
+
+    to {
+        width: 130px
+    }
+}
+
+@keyframes animation_cursor {
+    0%, 20%, 80%, to {
+        border-color: transparent
+    }
+
+    25%, 75% {
+        border-color: var(--cp-color-1)
+    }
+}
+
+@keyframes animation_cursor_persist {
+    0%, 45% {
+        border-color: transparent
+    }
+
+    50%, to {
+        border-color: var(--cp-color-1)
+    }
+}
+
+
+
+
+
+
+.HomepageAnonTopics_topicWrapper-I7dWM {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem
+}
+
+@media (min-width: 1281px) {
+    .HomepageAnonTopics_topicWrapper-I7dWM {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+    }
+}
+
+.HomepageAnonTopics_copy-s-lLp {
+    grid-area: 1/3/1/3;
+    display: flex;
+    align-items: center
+}
+
+@media (min-width: 1281px) {
+    .HomepageAnonTopics_copy-s-lLp {
+        grid-area: 1/6/1/6
+    }
+}
+
+
+.HomepageAnonTopics_topic-NIGtn {
+    background: var(--cp-color-14);
+    border-radius: 6px;
+    box-shadow: 5px 0 15px rgba(0, 0, 0, .25);
+    position: relative;
+    transform: scale(.95);
+    transition: all .3s ease
+}
+
+.HomepageAnonTopics_topic-NIGtn:focus, .HomepageAnonTopics_topic-NIGtn:hover {
+    transform: scale(1)
+}
+
+@media (min-width: 1281px) {
+    .HomepageAnonTopics_topic-NIGtn {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+}
+
+
+
+
+.HomepageAnonTopics_topic-NIGtn img {
+    width: 100%;
+    margin: auto;
+    transition: transform .2s ease
+}
+
+@media (min-width: 1281px) {
+    .HomepageAnonTopics_topic-NIGtn img {
+        max-width: calc(100% - 3rem);
+        max-height: calc(100% - 3rem);
+        position: absolute;
+        top: -1.5rem;
+        right: 1.5rem;
+        left: 1.5rem;
+        bottom: 1.5rem
+    }
+}
+
+.HomepageAnonTopics_bg-25_Ma {
+    bottom: -70px;
+    position: absolute;
+    left: -100px;
+    width: 900px
+}

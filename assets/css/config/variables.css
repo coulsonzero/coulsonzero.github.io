@@ -17,4 +17,10 @@
     /*========== Font and typography ==========*/
     /*.5rem = 8px | 1rem = 16px ...*/
     --body-font: 'Poppins', sans-serif;
+    
+    /*========== Contact ==========*/
+    --cp-font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    --cp-font-family-monospace: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+    --cp-color-1-hsl: 0deg 0% 100%;
+    --cp-color-1: hsl(var(--cp-color-1-hsl));
 }
