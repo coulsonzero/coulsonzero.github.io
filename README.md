@@ -169,5 +169,5 @@
 [Maserati]: https://houseof.maserati.com
 [fiiiirst]: https://fiiiirst.com
 [steelwavellc]: https://www.steelwavellc.com
-[avexdesigns]: [https://avexdesigns.com/]
+[avexdesigns]: https://avexdesigns.com/
 [orano]: https://www.orano.group/experience/innovation/en

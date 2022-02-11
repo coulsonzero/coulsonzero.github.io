@@ -131,6 +131,7 @@ swiperButton.forEach(item => {
     });
 })
 /* ========== datetime ========== */
+
 const updateTime = () => {
     var d = new Date();
     const datetime = document.querySelector(".icons .datetime");

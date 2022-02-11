@@ -67,6 +67,11 @@
             "title": "Google Fonts",
             "url": "http://www.googlefonts.cn/english",
             "fileName": "googlefonts.svg"
+        },
+        {
+            "title": "Webgradient",
+            "url": "https://webgradients.com/",
+            "fileName": "webgradients.png"
         }
     ]
 }
