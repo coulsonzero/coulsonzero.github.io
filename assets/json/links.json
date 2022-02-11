@@ -62,6 +62,11 @@
             "title": "Webpack",
             "url": "https://webpack.js.org/",
             "fileName": "webpack.svg"
+        },
+        {
+            "title": "Google Fonts",
+            "url": "http://www.googlefonts.cn/english",
+            "fileName": "googlefonts.svg"
         }
     ]
 }

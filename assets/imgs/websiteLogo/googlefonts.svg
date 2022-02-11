@@ -1,0 +1,7 @@
+<svg viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg" version="1.1">
+   <circle cx="40" cy="40" r="40" stroke-width="2" fill="rgb(255,82,82)" />
+   <g fill="#fff">
+      <text x="29" y="55" font-size="40" style="text-shadow: 5px 7px 16px rgba(0,0,0,.2);">F</text>
+      <rect x="48.41" y="24.76" width="3.8" height="3.43" />
+   </g>
+</svg> 
