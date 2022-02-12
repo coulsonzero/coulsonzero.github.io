@@ -1,20 +1,22 @@
-
 .contact {
     padding: 0;
     display: flex;
     flex-direction: column;
     position: relative;
 }
+
 .contact .Title {
     position: absolute;
     left: 50%;
     top: 10%;
     transform: translate(-50%, -20%);
 }
+
 .contact__container {
     width: 100%;
     position: relative;
 }
+
 code {
     line-height: 1.5;
     font-size: 15px;
@@ -22,6 +24,7 @@ code {
     font-weight: 400;
     font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 }
+
 .code__card {
     position: relative;
     width: 500px;
@@ -88,6 +91,7 @@ code {
     margin-bottom: 0;
     line-height: 1
 }
+
 .color-orange {
     color: #de7300
 }
@@ -162,7 +166,7 @@ code {
     }
 
     to {
-        width: 60px
+        width: 70px
     }
 }
 
@@ -182,7 +186,7 @@ code {
     }
 
     to {
-        width: 70px
+        width: 75px
     }
 }
 
@@ -202,7 +206,7 @@ code {
     }
 
     to {
-        width: 150px
+        width: 160px
     }
 }
 
