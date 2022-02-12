@@ -1,0 +1,6 @@
+.community {
+    display: flex;
+    justify-content: initial;
+    align-items: initial;
+    min-height: 100vh;
+}

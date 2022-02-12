@@ -1,0 +1,39 @@
+
+
+.mac-container {
+    position: relative;
+    width: 100%;
+    margin: 0 10%;
+}
+
+.mac {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: initial;
+
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    object-fit: cover;
+    -webkit-object-fit: cover;
+    width: 100%;
+}
+
+.picture {
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: none;
+
+    transform: translate(-50%, -50%) scale(1.51);
+    -webkit-transform: translate(-50%, -50%) scale(1.51);
+    object-fit: cover;
+    -webkit-object-fit: cover;
+
+}
+
+img[alt=mac],
+img[alt=page] {
+    width: 100%;
+    height: auto;
+}

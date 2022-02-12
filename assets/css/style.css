@@ -13,15 +13,16 @@
 @import "./components/home.css";
 @import "./components/about.css";
 @import "./components/contact.css";
+@import "./components/community.css";
 @import "./components/footer.css";
 
 /* ============ Container =========== */
 @import "./container/swiper-button.css";
 @import "./container/swiper-pagination.css";
 @import "./container/social.css";
+@import "./container/mac-container.css";
 
 /* ============ Theme =========== */
 @import "./theme/darkTheme.css";
 /* ============ Layout =========== */
 @import "./layout/layout.css";
-
