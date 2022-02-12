@@ -73,6 +73,7 @@ sr.reveal(`.nav .logo span`, {
     })
     // sr.reveal(`.navbar li`, { origin: 'left', interval: 100 })
 sr.reveal(`.main section div`, { origin: 'top' })
+sr.reveal(`.about-links a`, {origin: "left", interval: 100, dalay: 200});
 sr.reveal(`.footer`, {
     origin: 'right',
     dalay: 200,
