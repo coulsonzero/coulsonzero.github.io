@@ -1,5 +1,3 @@
-
-
 .mac-container {
     position: relative;
     width: 100%;
@@ -7,33 +5,32 @@
 }
 
 .mac {
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     transform: initial;
-
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    object-fit: cover;
-    -webkit-object-fit: cover;
-    width: 100%;
 }
 
 .picture {
     position: absolute;
+    /*
     left: 50%;
     top: 48%;
-    transform: none;
-
-    transform: translate(-50%, -50%) scale(1.51);
-    -webkit-transform: translate(-50%, -50%) scale(1.51);
-    object-fit: cover;
-    -webkit-object-fit: cover;
-
+    transform: initial;
+    transform: initial;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    */
+    width: 560px;
+    left: 90px;
+    top: 7%;
 }
 
-img[alt=mac],
-img[alt=page] {
+.mac-container img {
     width: 100%;
     height: auto;
+    object-fit: cover;
+    -webkit-object-fit: cover;
 }
