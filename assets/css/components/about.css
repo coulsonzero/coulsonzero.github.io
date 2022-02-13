@@ -36,7 +36,7 @@
 .about-link-item {
     position: relative;
     background-color: hsla(0, 0%, 100%, .76);
-    box-shadow: 0 4px 16px hsla(357, 25%, 15%, .1);
+    /* box-shadow: 0 4px 16px hsla(357, 25%, 15%, .1); */
     /* border-radius: .75rem; */
     border-radius: 1.25rem;
     transform: scale(0.95);
@@ -126,4 +126,3 @@
     transition: all .2s ease-out;
     -webkit-transition: all .2s ease-out;
 }
-
