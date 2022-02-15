@@ -120,6 +120,14 @@ function prev() {
     document.querySelectorAll('.img-btn')[i].classList.add('active')
     document.querySelector(".img-slider").src = imgsBox[i]
 }
+
+const prevBtn = document.querySelector('.swiper-button-prev')
+const nextBtn = document.querySelector('.swiper-button-next')
+
+prevBtn.addEventListener('click', prev)
+nextBtn.addEventListener('click', next)
+
+
 /* ============= 图片切换按钮悬浮事件 ============= */
 const swiperPagination = document.querySelector(".swiper-pagination")
 const swiperButton = document.querySelectorAll('.swiper-button')
