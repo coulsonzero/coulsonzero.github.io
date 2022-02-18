@@ -1,5 +1,5 @@
 /*=============== Change Theme ===============*/
-exports.themeChange = () => {
+themeChange = () => {
     const themeButton = document.getElementById('theme-button')
     const darkTheme = 'dark-theme'
     const iconTheme = 'bx-sun'
@@ -20,6 +20,8 @@ exports.themeChange = () => {
         localStorage.setItem('selected-icon', getCurrentIcon())
     })
 }
+
+themeChange();
 
 /*=============== 滚动页面 header 阴影 ===============*/
 function scrollHeader() {
