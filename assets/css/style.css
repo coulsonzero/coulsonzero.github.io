@@ -26,3 +26,4 @@
 @import "./theme/darkTheme.css";
 /* ============ Layout =========== */
 @import "./layout/layout.css";
+@import "./layout/mobile.css";

@@ -1,5 +1,5 @@
 /*=============== Change Theme ===============*/
-const themeChange = () => {
+exports.themeChange = () => {
     const themeButton = document.getElementById('theme-button')
     const darkTheme = 'dark-theme'
     const iconTheme = 'bx-sun'
@@ -21,11 +21,7 @@ const themeChange = () => {
     })
 }
 
-themeChange();
-
 /*=============== 滚动页面 header 阴影 ===============*/
-
-
 function scrollHeader() {
     const header = document.getElementById('header')
     // if(this.scrollY >= 50) header.classList.add('scroll-header'); else header.classList.remove('scroll-header')

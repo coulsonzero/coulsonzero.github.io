@@ -212,19 +212,3 @@
 }
 
 
-/*
-@media screen and (max-width: 900px) {
-    .navbar {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background: #222222;
-        z-index: 1000;
-    }
-    .navbar li {
-        display: block;
-        padding: 3rem;
-    }
-}
-*/

@@ -60,7 +60,7 @@ code {
     color: #c5c8d4;
     margin: 0
 }
-
+/*
 @media (max-width: 1100px) {
     .code__card.card__position {
         top: 80px;
@@ -74,6 +74,7 @@ code {
         right: 2.5%
     }
 }
+*/
 
 .card__container {
     margin: 0 10px 10px;
