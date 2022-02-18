@@ -66,19 +66,28 @@
     .about-link-item img {
         filter: none !important;
     }
-
+    .about-wrapper-bg {
+        top: 17%;
+        left: 2%;
+    }
     /* == Contact == */
-    .concact {
+    .contact {
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
         min-height: 50vh;
     }
-    .card__container {
-        position: initial;
+    .contact .Title,
+    .contact__container {
+        position: relative;
     }
     .code__card.card__position {
         position: relative;
         right: initial;
-        position: relative;
         width: 340px;
+        width: 96%;
+        left: 2%;
     }
 
     .mac {
@@ -96,8 +105,16 @@
     }
     .footer {
         padding-top: 0;
+        font-size: 6px;
     }
     .footer__inner {
         padding-top: 0;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .col {
+        text-align: center;
+        margin-top: 2rem;
     }
 }
