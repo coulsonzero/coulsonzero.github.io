@@ -12,12 +12,13 @@
     padding: 1.5rem 9%;
 }
 
-.header-show{
+.header-show {
     position: fixed;
     top: 75px;
     transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
 }
-.header-hidden{
+
+.header-hidden {
     position: fixed;
     top: -100px;
 }
@@ -63,6 +64,8 @@
     position: absolute;
     padding-left: 30px;
 }
+
+
 
 /* logo */
 
@@ -210,5 +213,3 @@
     width: 100%;
     left: 0;
 }
-
-
