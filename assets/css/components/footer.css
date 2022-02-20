@@ -22,6 +22,7 @@
     font-size: 2rem;
     font-weight: 400;
     text-transform: uppercase;
+    transition: all .1s ease-in-out;
 }
 
 .footer-content ul li {
@@ -30,7 +31,7 @@
 }
 
 .footer-content ul li a {
-    color: rgba(36, 43, 43, 0.6);
+    color: rgba(36, 36, 36, 0.97);
     border-bottom: 1px solid transparent;
     font-size: 2rem;
 }
@@ -42,7 +43,16 @@
 
 .footer-container .copyright {
     margin: 3rem 0 2rem;
-    color: #373b43;
+    color: rgb(31, 31, 31);
+}
+
+
+.dark-theme .footer-content ul li a {
+    color: rgb(228, 228, 228);
+}
+
+.dark-theme .footer-container .copyright {
+    color: rgb(228, 228, 228);
 }
 
 /*

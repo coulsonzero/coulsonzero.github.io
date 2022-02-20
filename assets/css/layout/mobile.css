@@ -176,21 +176,6 @@
         display: block;
     }
 
-    .footer-content ul li a {
-        color: rgba(36, 36, 36, 0.97);
-    }
-
-    .footer-content ul li a {
-        color: rgb(228, 228, 228);
-    }
-
-    .footer-container .copyright {
-        color: rgb(31, 31, 31);
-    }
-
-    .dark-theme .footer-container .copyright {
-        color: rgb(228, 228, 228);
-    }
 
     .footer-container .copyright span {
         display: none;
