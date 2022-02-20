@@ -41,9 +41,6 @@
         font-size: 4rem;
     }
 
-    header {
-        /* display: none; */
-    }
 
     .nav .logo span {
         display: none;
@@ -73,31 +70,36 @@
 
     svg.menuToggle.active .line {
         transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+        -webkit-transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
 
     svg.menuToggle.active .line1 {
         transform: rotate(45deg) translate(5px, -6px);
+        -webkit-transform: rotate(45deg) translate(5px, -6px);
     }
 
     svg.menuToggle.active .line2 {
-        /* display: none; */
-        /* opacity: 0; */
         transform: scaleX(0);
+        -webkit-transform: scaleX(0);
         transform-origin: center;
+        -webkit-transform-origin: center;
     }
 
     svg.menuToggle.active .line3 {
         transform: rotate(-45deg) translate(-13px, 0px);
+        -webkit-transform: rotate(-45deg) translate(-13px, 0px);
     }
 
     .change-theme {
         transform: translate(-40px, 3px);
+        -webkit-transform: translate(-40px, 3px);
         font-size: 20px;
     }
 
     .datetime {
         display: none;
     }
+
 
     /* ==== Home ==== */
     .home .content {
@@ -185,61 +187,4 @@
     .footer-container .copyright span {
         display: none;
     }
-
-
-
-    /*
-    .contact {
-        display: flex;
-        width: 100%;
-        align-items: flex-start;
-        justify-content: center;
-        min-height: 50vh;
-    }
-
-    .contact .Title,
-    .contact__container {
-        position: relative;
-    }
-
-    .code__card.card__position {
-        position: relative;
-        right: initial;
-        width: 340px;
-        width: 96%;
-        left: 2%;
-    }
-
-    .mac {
-        left: 25%;
-    }
-
-    .mac-container img {
-        width: 50%;
-    }
-
-    .picture {
-        left: 45px;
-    }
-
-    .concact,
-    .community {
-        min-height: 50vh;
-    }
-
-
-    .footer {
-        padding-top: 0;
-        font-size: 6px;
-    }
-
-    .footer__inner {
-        padding-top: 0;
-    }
-
-    .col {
-        text-align: center;
-        margin-top: 2rem;
-    }
-     */
 }
