@@ -7,6 +7,7 @@
     z-index: 0;
     user-select: none;
     -webkit-user-select: none;
+    overflow-y: hidden;
 }
 
 
@@ -162,7 +163,7 @@
 
 /* ======= Home Background shadow ======== */
 
-.home__background{
+.home__background {
     position: absolute;
     top: 0;
     left: 0;
