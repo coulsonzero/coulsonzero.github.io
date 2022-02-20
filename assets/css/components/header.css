@@ -62,7 +62,8 @@
 
 .icons .datetime {
     position: absolute;
-    padding-left: 30px;
+    padding-left: 15px;
+    font-size: 2rem;
 }
 
 
