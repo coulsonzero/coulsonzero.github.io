@@ -136,6 +136,10 @@
         top: 80%;
     }
 
+    .arrow {
+        display: none;
+    }
+
     /* ==== About ==== */
     .about-links {
         grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
