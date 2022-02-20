@@ -121,7 +121,7 @@
     }
 
     #awwwards {
-        top: 7%;
+        top: 10%;
     }
 
     #awwwards img[alt=awwwards] {
@@ -129,7 +129,11 @@
     }
 
     .swiper-button-next {
-        right: 0;
+        right: -14px;
+    }
+
+    .img-toggle {
+        column-gap: 3rem;
     }
 
     .social {
