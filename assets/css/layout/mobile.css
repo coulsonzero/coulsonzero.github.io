@@ -46,6 +46,7 @@
     }
 
     .nav-toggle {
+        display: block;
         position: fixed;
         right: 4rem;
         top: 2rem;
@@ -53,8 +54,13 @@
     }
 
     svg.menuToggle {
-        stroke: rgba(36, 36, 36, .97);
+        stroke: rgba(26, 26, 26, 0.97);
     }
+
+    .dark-theme svg.menuToggle {
+        stroke: rgba(241, 241, 241, 0.97);
+    }
+
 
     svg.menuToggle.active {
         stroke: #fff;
@@ -139,6 +145,23 @@
     }
 
     /* == Contact == */
+    .code__card.card__position {
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    /* == Community == */
+    .mac {
+        width: 400px;
+    }
+
+    .picture {
+        width: 300px;
+        left: 50px;
+    }
+
+    /*
     .contact {
         display: flex;
         width: 100%;
@@ -177,6 +200,7 @@
         min-height: 50vh;
     }
 
+    */
     .footer {
         padding-top: 0;
         font-size: 6px;
@@ -194,4 +218,5 @@
         text-align: center;
         margin-top: 2rem;
     }
+
 }
