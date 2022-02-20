@@ -1,29 +1,10 @@
-.mac-container {
-    position: relative;
-    width: 100%;
-    margin: 0 10%;
-}
-
 .mac {
     position: relative;
-    left: 50%;
-    top: 50%;
-    transform: initial;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
     width: 740px;
 }
 
 .picture {
     position: absolute;
-    /*
-    left: 50%;
-    top: 48%;
-    transform: initial;
-    transform: initial;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    */
     width: 560px;
     left: 90px;
     top: 7%;

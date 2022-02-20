@@ -1,17 +1,6 @@
 .community {
     position: relative;
     display: flex;
-    justify-content: initial;
-    align-items: initial;
-    min-height: 100vh;
-}
-
-.community .Title {
-    position: relative;
-    left: 50%;
-    top: 10%;
-    transform: translate(-50%, -20%);
-    -webkit-transform: translate(-50%, -20%);
-    color: #000;
-    opacity: .1;
+    flex-direction: column;
+    align-items: center;
 }

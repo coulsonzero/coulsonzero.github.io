@@ -1,12 +1,12 @@
-
 /*========== BASE ==========*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     transition: all .3s linear;
 }
+
 *::before,
 *::after {
     box-sizing: border-box;
@@ -26,17 +26,21 @@ body {
     /* 文字抗锯齿 */
     -webkit-font-smoothing: antialiased;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
-ul{
+
+li {
     list-style: none;
 }
+
 a {
     text-decoration: none;
     color: hsl(196, 100%, 73%);
 }
+
 button {
     cursor: pointer;
     outline: none;
