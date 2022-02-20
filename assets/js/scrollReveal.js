@@ -5,7 +5,7 @@ const scrollReveal = () => {
 		distance: "60px",
 		duration: 1600,
 		delay: 200,
-		// reset: true
+		reset: true
 	});
 
 	sr.reveal(`.nav .logo span`, {
