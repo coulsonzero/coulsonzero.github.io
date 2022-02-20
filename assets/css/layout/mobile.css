@@ -210,10 +210,6 @@
         padding-top: 0;
     }
 
-    .row {
-        flex-direction: column;
-    }
-
     .col {
         text-align: center;
         margin-top: 2rem;
