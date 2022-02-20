@@ -42,3 +42,13 @@ section .Title {
     letter-spacing: 1rem;
     color: rgba(34, 34, 34, 0.1);
 }
+
+.dark-theme section,
+.dark-theme footer {
+    background: #131417;
+    color: rgb(223, 221, 221);
+}
+
+.dark-theme .section-title {
+    color: rgb(223, 221, 221);
+}

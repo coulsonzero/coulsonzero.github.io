@@ -1,4 +1,4 @@
-const setImgToggle = () => {
+const setImgToggle = (imgsBox) => {
 	/* ============ 图片左右切换按钮事件 =========== */
 	var i = 0;
 	let imgBtn = document.querySelectorAll(".img-btn");
