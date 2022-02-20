@@ -45,6 +45,10 @@
         /* display: none; */
     }
 
+    .nav .logo span {
+        display: none;
+    }
+
     .nav-toggle {
         display: block;
         position: fixed;
@@ -161,6 +165,19 @@
         left: 50px;
     }
 
+    /* ==== Footer ==== */
+    .footer-content ul li {
+        display: block;
+    }
+
+    .footer-container .copyright {
+        color: rgba(59, 59, 59, 0.6);
+    }
+
+    .footer-container .copyright span {
+        display: none;
+    }
+
     /*
     .contact {
         display: flex;
@@ -200,7 +217,7 @@
         min-height: 50vh;
     }
 
-    */
+
     .footer {
         padding-top: 0;
         font-size: 6px;
@@ -214,5 +231,5 @@
         text-align: center;
         margin-top: 2rem;
     }
-
+     */
 }

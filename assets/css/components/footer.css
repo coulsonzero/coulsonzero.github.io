@@ -1,20 +1,51 @@
 /*=============== Footer ===============*/
 
 
-/*
+
 .footer {
-    background: #3e3e3e;
-    padding: 30px 0 10px 0;
-    min-height: 20vh;
+    padding: 4rem 9% 1rem;
+    background-color: #f8f8f8;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    padding-top: 3rem;
+    border-top: 1px solid #373b43;
 }
 
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.footer-content ul li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.footer-content ul li a {
+    color: rgba(36, 43, 43, 0.6);
+    border-bottom: 1px solid transparent;
+    font-size: 2rem;
+}
+
+.footer-content ul li a:hover {
+    color: #373b43;
+    border-bottom-color: #121212;
+}
+
+.footer-container .copyright {
+    margin: 3rem 0 2rem;
+    color: #373b43;
+}
+
+/*
 .footer-container ul li {
     display: inline-block;
     margin: 20px;
@@ -51,8 +82,11 @@
     font-size: 1.6rem;
     color: hsla(0, 0%, 100%, .6);
 }
-*/
 
+
+
+
+/*
 .footer {
     padding-top: 42px;
     background-color: #f8f8f8;

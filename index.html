@@ -281,19 +281,32 @@
     </main>
 
     <!--==================== FOOTER ====================-->
-    <!--
+
     <footer class="footer">
         <div class="footer-container ">
-            <ul>
-                <li><a href="#home ">Home</a></li>
-                <li><a href="#about ">About</a></li>
-                <li><a href="#contact ">Contact</a></li>
-                <li><a href="#community ">Community</a></li>
-            </ul>
-            <p>&copy; 2022 coulsonzero. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-title">coulson&nbsp;zero</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#home">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#community">Community</a></li>
+                </ul>
+            </div>
+            <!-- <p>&copy; 2022 coulsonzero. All rights reserved.</p> -->
+            <div class="copyright">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear() + ' ');
+                </script>
+                coulsonzero <span>. All rights reserved</span>
+            </div>
         </div>
     </footer>
-    -->
+
+
+    <!--
     <footer class="footer" id="footer">
         <div class="container footer__container">
             <div class="footer__inner">
@@ -315,7 +328,6 @@
                         <div class="menu">
                             <div class="menu__list d-flex">
                                 <div class="menu-el menu__list-el">
-                                    <!-- m-is-active -->
                                     <a class="menu-el__link" href="#home">
                                         <div class="menu-el__text">Home</div>
                                     </a>
@@ -370,6 +382,7 @@
             </div>
         </div>
     </footer>
+    -->
 
     <!--=============== SCROLL REVEAL ===============-->
     <script src="./assets/libs/scrollreveal.min.js"></script>
