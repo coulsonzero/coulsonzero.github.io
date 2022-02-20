@@ -26,7 +26,7 @@ section:nth-of-type(even) {
     background: rgb(0, 0, 0);
 }
 */
-
+/*
 section .Title {
     font-size: 6rem;
     font-weight: 600;
@@ -34,7 +34,7 @@ section .Title {
     color: #000;
     opacity: .1;
 }
-
+*/
 .section-title {
     margin: 6rem 0;
     text-align: center;
