@@ -21,7 +21,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 10rem;
+        /* padding-top: 10rem; */
         opacity: 0;
         transition: all .5s ccubic-bezier(0.075, 0.82, 0.165, 1) .1s;
     }
@@ -119,7 +119,7 @@
     }
 
     #awwwards {
-        top: 7%;
+        top: 10%;
     }
 
     #awwwards img[alt=awwwards] {
@@ -132,6 +132,10 @@
 
     .social {
         top: 80%;
+    }
+
+    .swiper-button-next {
+        right: -10px;
     }
 
     /* ==== About ==== */
@@ -158,6 +162,7 @@
     /* == Community == */
     .mac {
         width: 400px;
+        transform: scale(.8);
     }
 
     .picture {
