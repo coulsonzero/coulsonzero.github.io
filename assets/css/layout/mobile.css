@@ -170,13 +170,23 @@
         display: block;
     }
 
+    .footer-content ul li a {
+        color: rgba(241, 241, 241, 0.97);
+    }
+
     .footer-container .copyright {
         color: rgba(59, 59, 59, 0.6);
+    }
+
+    .dark-theme .footer-container .copyright {
+        color: rgb(212, 206, 206);
     }
 
     .footer-container .copyright span {
         display: none;
     }
+
+
 
     /*
     .contact {
