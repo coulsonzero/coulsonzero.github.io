@@ -10,6 +10,9 @@ import setSwiper from "./assets/js/setSwiper.js";
 import setImgToggle from "./assets/js/setImgToggle.js";
 import setHttp from "./assets/js/setHttp.js";
 
+
+document.body.classList.add('dark-theme')
+
 setInterval(setTime, 1000);
 
 setBackground();
