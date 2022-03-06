@@ -6,10 +6,10 @@
     left: 0;
     z-index: 999;
     width: 100%;
-    background: hsla(0, 0%, 100%, .86);
+    background: hsla(0, 0%, 100%, .72);
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    padding: 1.5rem 9%;
+    padding: .8rem 9%;
 }
 
 .header-show {

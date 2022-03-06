@@ -6,12 +6,12 @@ const getJsonData = (jsonhttp) => {
 	let content = "";
 	for (let i = 0; i < obj.link.length; i++) {
 		content += `
-        <a href="${obj.link[i].url}" target="_blank" class="${
-			obj.linkClassName
-		}">
-            <img src="${obj.imgPath}${obj.link[i].fileName}" alt="${obj.link[
-			i
-		].title.toLowerCase()}" class="link-img"/>
+        <a href="${obj.link[i].url}" target="_blank"
+			class="${obj.linkClassName}">
+			<img src="${obj.imgPath}${obj.link[i].fileName}"
+				alt="${obj.link[i].title.toLowerCase()}"
+				class="link-img"
+			/>
             <span class="link-title">${obj.link[i].title}</span>
         </a>
         `;
