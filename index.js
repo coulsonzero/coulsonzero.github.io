@@ -32,3 +32,12 @@ setSwiper();
 setImgToggle();
 
 setHttp("GET", "assets/json/links.json");
+
+
+
+// Grid demo
+const gridLinks = document.querySelector(".about-links");
+new Sortable(gridLinks, {
+	animation: 500,
+	ghostClass: 'blue-background-class'
+});
