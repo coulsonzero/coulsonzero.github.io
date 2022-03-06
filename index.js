@@ -12,7 +12,7 @@ import setHttp from "./assets/js/setHttp.js";
 
 document.body.classList.add('dark-theme')
 
-setInterval(setTime, 1000);
+// setInterval(setTime, 1000);
 
 setBackground();
 
@@ -28,6 +28,7 @@ setActiveSlider();
 
 setSwiper();
 
-setImgToggle(getSlider());
+// setImgToggle(getSlider());
+setImgToggle();
 
 setHttp("GET", "assets/json/links.json");
