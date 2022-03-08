@@ -77,7 +77,11 @@
             "title": "SortableJs",
             "url": "http://www.sortablejs.com",
             "fileName": "sortable.png"
-
+        },
+        {
+            "title": "spline",
+            "url": "https://spline.design",
+            "fileName": "spline.png"
         }
     ]
 }
