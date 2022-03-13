@@ -108,6 +108,11 @@
     transition: 0.05s ease-out;
     padding-left: 4rem;
     transition: all .3s ease;
+    /* 渐变色字体 */
+    background: linear-gradient(120deg, rgb(132,111,244), rgb(241,118,116));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .logo:hover span {
