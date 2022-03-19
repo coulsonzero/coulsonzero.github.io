@@ -79,9 +79,14 @@
             "fileName": "sortable.png"
         },
         {
-            "title": "spline",
+            "title": "Spline",
             "url": "https://spline.design",
             "fileName": "spline.png"
+        },
+        {
+            "title": "Slidev",
+            "url": "https://cn.sli.dev/",
+            "fileName": "slidev.svg"
         }
     ]
 }
