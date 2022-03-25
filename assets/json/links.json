@@ -92,6 +92,11 @@
             "title": "Slidev",
             "url": "https://cn.sli.dev/",
             "fileName": "slidev.svg"
+        },
+        {
+            "title": "Dirbbble",
+            "url": "https://dribbble.com",
+            "fileName": "dirbbble.svg"
         }
     ]
 }
