@@ -29,6 +29,11 @@
             "fileName": "boxicon.svg"
         },
         {
+            "title": "Iconfont",
+            "url": "https://www.iconfont.cn",
+            "fileName": "iconfont.svg"
+        },
+        {
             "title": "Echarts",
             "url": "https://echarts.apache.org",
             "fileName": "echarts.png"
