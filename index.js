@@ -10,7 +10,6 @@ import setSwiper from "./assets/js/setSwiper.js";
 import setImgToggle from "./assets/js/setImgToggle.js";
 import setHttp from "./assets/js/setHttp.js";
 
-document.body.classList.add('dark-theme')
 
 // setInterval(setTime, 1000);
 
@@ -34,10 +33,11 @@ setImgToggle();
 setHttp("GET", "assets/json/links.json");
 
 
-
+/*
 // Grid demo
 const gridLinks = document.querySelector(".about-links");
 new Sortable(gridLinks, {
 	animation: 500,
 	ghostClass: 'blue-background-class'
 });
+*/

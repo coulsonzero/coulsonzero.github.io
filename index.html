@@ -14,10 +14,8 @@
 
     <!--=============== SWIPER CSS ===============-->
     <link rel="stylesheet" href="./assets/libs/swiper-bundle.min.css">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
 
     <!--=============== BOXICONS =================-->
-    <!-- <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.1/css/boxicons.min.css" />
 
     <!--=============== Google Fonts =============-->
@@ -32,7 +30,7 @@
 
 </head>
 
-<body>
+<body class="dark-theme">
 
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
@@ -65,9 +63,9 @@
 
     <!--==================== MAIN ====================-->
     <main class="main">
+
         <!--==================== HOME ====================-->
         <section class="home" id="home">
-
             <!-- ===== 文本内容 ===== -->
             <div class="content">
                 <div class="content-name">
@@ -93,12 +91,11 @@
             <!-- ===== 背景图片分页器 ===== -->
             <div class="swiper-pagination">
                 <span data-src="./assets/imgs/homeBg/1.jpg" class="img-btn"></span>
-                <span data-src="./assets/imgs/homeBg/2.jpg" class="img-btn"></span>
+                <span data-src="./assets/imgs/homeBg/2.jpg" class="img-btn active"></span>
                 <span data-src="./assets/imgs/homeBg/3.jpg" class="img-btn"></span>
                 <span data-src="./assets/imgs/homeBg/4.jpg" class="img-btn"></span>
                 <span data-src="./assets/imgs/homeBg/5.jpg" class="img-btn"></span>
                 <span data-src="./assets/imgs/homeBg/6.jpg" class="img-btn"></span>
-                <span data-src="./assets/imgs/homeBg/7.jpg" class="img-btn  active"></span>
             </div>
 
             <!-- ===== 背景图片切换按钮 ===== -->
@@ -388,17 +385,12 @@
     <script src="./assets/libs/scrollreveal.min.js"></script>
 
     <!--=============== SWIPER JS ===============-->
-    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.3/swiper-bundle.js"></script>
 
     <!--==================== Script ====================-->
     <script type="module" src="./index.js"></script>
 
     <script src="./assets/js/toggleNavbar.js"></script>
-
-    <script>
-        document.body.classList.add('.dark-theme');
-    </script>
 
     <!-- js拖拽库 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.8.3/Sortable.min.js"></script>
