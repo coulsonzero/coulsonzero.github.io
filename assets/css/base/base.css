@@ -17,6 +17,7 @@ html {
     /* 页面间平滑滚动 */
     scroll-behavior: smooth;
     -webkit-scroll-behavior: smooth;
+    -webkit-scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
