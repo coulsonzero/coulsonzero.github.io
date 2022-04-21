@@ -1,15 +1,15 @@
 const setSwiper = () => {
 	/* ============= 图片切换按钮悬浮事件 ============= */
-	const swiperPagination = document.querySelector(".swiper-pagination");
-	const swiperButton = document.querySelectorAll(".swiper-button");
+	const swiperPagination = document.querySelector(".swiper-pagination")
+	const swiperButton = document.querySelectorAll(".swiper-button")
 	swiperButton.forEach((item) => {
 		item.addEventListener("mouseenter", () => {
-			swiperPagination.classList.add("active");
-		});
+			swiperPagination.classList.add("active")
+		})
 		item.addEventListener("mouseleave", () => {
-			swiperPagination.classList.remove("active");
-		});
-	});
+			swiperPagination.classList.remove("active")
+		})
+	})
 }
 
-export default setSwiper;
+export default setSwiper
