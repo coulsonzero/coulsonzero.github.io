@@ -57,11 +57,11 @@ function tweenAnimate() {
 		ease: Expo.easeInOut,
 	})
 
-	TweenMax.from(".home .awwwards", 2, {
+	TweenMax.from(".home .awwwards img", 2, {
 		opacity: 0,
-		delay: 3,
+		delay: 4,
 		x: 100,
-		ease: Expo.easeInOut,
+		ease: Expo.easeOut,
 	})
 
     TweenMax.staggerFrom(".home .social li", 1, {
