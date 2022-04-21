@@ -20,7 +20,7 @@ window.addEventListener("scroll", scrollHeader)
 window.addEventListener("scroll", scrollActive)
 
 
-
+// scrollReveal()
 
 setActiveSlider()
 

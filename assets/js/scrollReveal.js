@@ -8,10 +8,7 @@ const scrollReveal = () => {
 		// reset: true
 	})
 
-	sr.reveal(`.nav .logo span`, {
-		origin: "bottom",
-		delay: 200,
-	})
+	// sr.reveal(`.nav .logo span`, {origin: "bottom",delay: 200})
 	// sr.reveal(`.navbar li`, { origin: 'left', interval: 100 })
 	// sr.reveal(`.main section div`, {origin: "bottom"});
 	sr.reveal(`.about-links a`, {origin: "bottom", interval: 100, dalay: 200})
