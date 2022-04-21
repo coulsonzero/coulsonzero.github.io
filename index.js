@@ -13,7 +13,9 @@ import tweenAnimate from "./assets/js/tweenAnimate.js"
 
 // setInterval(setTime, 1000);
 
+scrollReveal()
 tweenAnimate()
+
 setBackground()
 
 setTheme()
@@ -21,16 +23,20 @@ setTheme()
 window.addEventListener("scroll", scrollHeader)
 window.addEventListener("scroll", scrollActive)
 
-scrollReveal()
+
+
 
 setActiveSlider()
 
 setSwiper()
 
+
 setImgToggle(getSlider())
 setImgToggle()
 
 setHttp("GET", "assets/json/links.json")
+
+
 
 
 
