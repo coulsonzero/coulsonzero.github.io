@@ -59,8 +59,8 @@ function tweenAnimate() {
 
 	TweenMax.from(".home .awwwards", 2, {
 		opacity: 0,
-		delay: 3.5,
-		x: 120,
+		delay: 3,
+		x: 100,
 		ease: Expo.easeInOut,
 	})
 
