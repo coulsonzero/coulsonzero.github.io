@@ -9,12 +9,8 @@ import getSlider from "./assets/js/getSlider.js"
 import setSwiper from "./assets/js/setSwiper.js"
 import setImgToggle from "./assets/js/setImgToggle.js"
 import setHttp from "./assets/js/setHttp.js"
-import tweenAnimate from "./assets/js/tweenAnimate.js"
 
 // setInterval(setTime, 1000);
-
-scrollReveal()
-tweenAnimate()
 
 setBackground()
 
