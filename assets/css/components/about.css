@@ -83,7 +83,7 @@
 
 
 /* !important */
-/*
+
 .about-link-item {
     overflow: hidden;
     transition: all .3s ease-in-out;
@@ -96,8 +96,8 @@
     transform: translateY(15px);
     user-select: none;
     -webkit-user-select: none;
-    filter: opacity(0.5) grayscale(1);
-    -webkit-filter: opacity(0.5) grayscale(1);
+    /* filter: opacity(0.5) grayscale(1); */
+    /* -webkit-filter: opacity(0.5) grayscale(1); */
 }
 
 .about-link-item span {
@@ -114,7 +114,7 @@
 .about-link-item:hover span {
     top: 80%;
     opacity: 1;
-    transition: all .2s ease-out;
-    -webkit-transition: all .2s ease-out;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-out;
 }
-*/
+
