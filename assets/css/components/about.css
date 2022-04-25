@@ -101,9 +101,9 @@
 }
 
 .about-link-item span {
-    top: 120%;
-    transition: all .3s ease-in .1s;
-    -webkit-transition: all .3s ease-in .1s;
+    top: 97%;
+    transition: all .3s ease-in .03s;
+    -webkit-transition: all .3s ease-in .03s;
     opacity: 0;
 }
 
@@ -115,6 +115,6 @@
     top: 80%;
     opacity: 1;
     transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
