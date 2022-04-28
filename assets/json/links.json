@@ -5,13 +5,18 @@
     "link": [
         {
             "title": "React",
-            "url": "https://reactjs.org",
+            "url": "https://zh-hans.reactjs.org",
             "fileName": "react.svg"
         },
         {
             "title": "Vue",
             "url": "https://v3.cn.vuejs.org",
             "fileName": "vue.svg"
+        },
+        {
+            "title": "Ant Design",
+            "url": "https://ant.design/index-cn",
+            "fileName": "antd.svg"
         },
         {
             "title": "Swiper",
