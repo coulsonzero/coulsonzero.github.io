@@ -102,6 +102,21 @@
             "title": "Dirbbble",
             "url": "https://dribbble.com",
             "fileName": "dirbbble.svg"
+        },
+        {
+            "title": "Tailwind",
+            "url": "https://tailwindcss.com/",
+            "fileName": "tailwind.svg"
+        },
+        {
+            "title": "StackBlitz",
+            "url": "https://stackblitz.com/",
+            "fileName": "stackblitz.svg"
+        },
+        {
+            "title": "Vite",
+            "url": "https://cn.vitejs.dev/",
+            "fileName": "vite.svg"
         }
     ]
 }
