@@ -1,4 +1,4 @@
-import getJsonData from "./getJsonData.js"
+import getJsonData2 from "./getJsonData2.js"
 
 const setHttp = (type, url) => {
 	// Ajax获取json数据
@@ -6,7 +6,7 @@ const setHttp = (type, url) => {
 	jsonhttp.onload = function () {
 		if (this.readyState == 4 && this.status == 200) {
 			// json数据处理
-			getJsonData(jsonhttp)
+			getJsonData2(jsonhttp)
 		}
 	}
 	jsonhttp.open(type, url)

@@ -71,6 +71,10 @@
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
 
+    background: hsl(223deg 10% 15% / 83%) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+
 }
 
 .dark-theme .about-link-item span {

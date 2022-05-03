@@ -22,7 +22,7 @@
     <link href="https://fonts.font.im/css?family=Roboto|Menlo|Poppins|Cinzel+Decorative|Bellefair|Cagliostro|Parisienne:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!--=============== JQuery ===================-->
-    <!-- <script src="https://code.jquery.com/jquery-3.1.1.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 
     <!--=============== CSS ======================-->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -145,12 +145,50 @@
                 <span>COLLECTION</span>
                 <h2>Useful Websites</h2>
             </div>
+            <div class="tabs-container">
+                <div class="tabs">
+                    <input type="radio" id="radio-1" name="tabs" checked /><label class="tab" for="radio-1">Web 框架<span class="notification"></span></label>
+                    <input type="radio" id="radio-2" name="tabs" /><label class="tab" for="radio-2">JavaScript库<span class="notification"></span></label>
+                    <input type="radio" id="radio-3" name="tabs" /><label class="tab" for="radio-3">CSS库<span class="notification"></span></label>
+                    <input type="radio" id="radio-4" name="tabs" /><label class="tab" for="radio-4">Others<span class="notification"></span></label>
+                    <span class="glider"></span>
+                </div>
+            </div>
+
+            <div class="about-wrapper">
+                <div class="about-links">
+                    <!--
+                    <img src="./assets/imgs/menu.svg" alt="" class="link-1" />
+                    <img src="./assets/imgs/logo-mark.svg" alt="" class="link-2" />
+                    <img src="./assets/imgs/menuclose.svg" alt="" class="link-2" />
+                    -->
+                </div>
+
+                <div class="about-links hidden">
+                    <!-- <img src="./assets/imgs/websiteLogo/animista.svg" alt="" /> -->
+                    <!-- <img src="./assets/imgs/websiteLogo/antd.svg" alt="" /> -->
+                </div>
+
+               <div class="about-links hidden">
+                    <!-- <img src="./assets/imgs/websiteLogo/echarts.png" alt="" /> -->
+                    <!-- <img src="./assets/imgs/websiteLogo/googlefonts.svg" alt="" /> -->
+                </div>
+                <div class="about-links hidden">
+                    <!-- <img src="./assets/imgs/websiteLogo/animista.svg" alt="" /> -->
+                    <!-- <img src="./assets/imgs/websiteLogo/googlefonts.svg" alt="" /> -->
+                </div>
+            </div>
+
+            <!--
             <div class="about-wrapper">
                 <div class="about-links">
                 </div>
                 <img src="https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg" alt=""
                     class="about-wrapper-bg" />
             </div>
+            -->
+            <img src="https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg" alt=""
+                    class="about-bg" style="z-index: 10" />
         </section>
 
         <!--==================== CONTACT ====================-->

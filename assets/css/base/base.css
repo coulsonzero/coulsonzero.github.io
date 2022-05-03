@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     transition: all .3s linear;
+
+    /* cursor: url("https://cdn.jsdelivr.net/gh/kaibazhidao66/tcb/cur/normal.cur") 4 4, auto */
 }
 
 *::before,

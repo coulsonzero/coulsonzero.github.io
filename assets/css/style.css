@@ -21,6 +21,7 @@
 @import "./container/swiper-pagination.css";
 @import "./container/social.css";
 @import "./container/mac-container.css";
+@import "./container/website-tabs.css";
 
 /* ============ Theme =========== */
 @import "./theme/darkTheme.css";

@@ -9,6 +9,7 @@ import getSlider from "./assets/js/getSlider.js"
 import setSwiper from "./assets/js/setSwiper.js"
 import setImgToggle from "./assets/js/setImgToggle.js"
 import setHttp from "./assets/js/setHttp.js"
+import setAboutLinks from "./assets/js/setAboutLinks.js"
 
 // setInterval(setTime, 1000);
 
@@ -19,22 +20,16 @@ setTheme()
 window.addEventListener("scroll", scrollHeader)
 window.addEventListener("scroll", scrollActive)
 
-
 // scrollReveal()
 
 setActiveSlider()
 
 setSwiper()
 
-
 setImgToggle(getSlider())
 setImgToggle()
 
 setHttp("GET", "assets/json/links.json")
-
-
-
-
 
 
 /*
@@ -45,3 +40,6 @@ new Sortable(gridLinks, {
 	ghostClass: 'blue-background-class'
 });
 */
+
+setAboutLinks()
+

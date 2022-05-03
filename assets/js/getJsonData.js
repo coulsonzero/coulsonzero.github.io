@@ -1,7 +1,6 @@
 // json数据处理方法
 function getJsonData(jsonhttp) {
 	const obj = JSON.parse(jsonhttp.responseText)
-	// 数据挂载
 	const APP = document.querySelector(obj.target)
 	let content = ""
 	for (let i = 0; i < obj.link.length; i++) {
