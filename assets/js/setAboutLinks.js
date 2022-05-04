@@ -16,7 +16,7 @@ function setAboutLinks() {
 		setTimeout(() => {
 			// console.log(v.children.length)
 			noti[i].innerHTML = v.children.length
-		}, 0)
+		}, 1000)
 	})
 }
 
