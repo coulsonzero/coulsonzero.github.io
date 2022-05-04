@@ -1,3 +1,4 @@
+import setAboutLinks from "./assets/js/setAboutLinks.js"
 import setTime from "./assets/js/setTime.js"
 import setBackground from "./assets/js/setBackground.js"
 import setTheme from "./assets/js/setTheme.js"
@@ -9,12 +10,11 @@ import getSlider from "./assets/js/getSlider.js"
 import setSwiper from "./assets/js/setSwiper.js"
 import setImgToggle from "./assets/js/setImgToggle.js"
 import setHttp from "./assets/js/setHttp.js"
-import setAboutLinks from "./assets/js/setAboutLinks.js"
 
 document.body.classList.remove("dark-theme")
 // setInterval(setTime, 1000);
 
-
+setAboutLinks()
 setBackground()
 
 setTheme()
@@ -33,7 +33,6 @@ setImgToggle()
 
 setHttp("GET", "assets/json/links.json")
 
-setAboutLinks()
 /*
 // Grid demo
 const gridLinks = document.querySelector(".about-links");
@@ -42,6 +41,3 @@ new Sortable(gridLinks, {
 	ghostClass: 'blue-background-class'
 });
 */
-
-
-
