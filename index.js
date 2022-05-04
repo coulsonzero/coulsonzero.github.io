@@ -11,7 +11,9 @@ import setImgToggle from "./assets/js/setImgToggle.js"
 import setHttp from "./assets/js/setHttp.js"
 import setAboutLinks from "./assets/js/setAboutLinks.js"
 
+document.body.classList.remove("dark-theme")
 // setInterval(setTime, 1000);
+setAboutLinks()
 
 setBackground()
 
@@ -41,5 +43,5 @@ new Sortable(gridLinks, {
 });
 */
 
-setAboutLinks()
+
 
