@@ -10,15 +10,16 @@ function setAboutLinks() {
 			}
 		})
 	}
-	/*
+
 	const noti = document.querySelectorAll(".notification")
-	tabLinks.forEach((v, i) => {
-		setTimeout(() => {
-			// console.log(v.children.length)
-			noti[i].innerHTML = v.children.length
-		}, 1000)
-	})
-	*/
+	if(noti) {
+		tabLinks.forEach((v, i) => {
+			setTimeout(() => {
+				// console.log(v.children.length)
+				noti[i].innerHTML = v.children.length
+			}, 1000)
+		})
+	}
 }
 
 export default setAboutLinks
