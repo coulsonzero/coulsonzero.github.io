@@ -14,7 +14,7 @@ import setHttp from "./assets/js/setHttp.js"
 document.body.classList.remove("dark-theme")
 // setInterval(setTime, 1000);
 
-setAboutLinks()
+
 setBackground()
 
 setTheme()
@@ -22,6 +22,7 @@ setTheme()
 window.addEventListener("scroll", scrollHeader)
 window.addEventListener("scroll", scrollActive)
 
+setAboutLinks()
 // scrollReveal()
 
 setActiveSlider()
