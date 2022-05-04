@@ -10,7 +10,7 @@ function setAboutLinks() {
 			}
 		})
 	}
-
+	/*
 	const noti = document.querySelectorAll(".notification")
 	tabLinks.forEach((v, i) => {
 		setTimeout(() => {
@@ -18,6 +18,7 @@ function setAboutLinks() {
 			noti[i].innerHTML = v.children.length
 		}, 1000)
 	})
+	*/
 }
 
 export default setAboutLinks
