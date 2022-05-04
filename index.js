@@ -13,7 +13,7 @@ import setAboutLinks from "./assets/js/setAboutLinks.js"
 
 document.body.classList.remove("dark-theme")
 // setInterval(setTime, 1000);
-setAboutLinks()
+
 
 setBackground()
 
@@ -33,7 +33,7 @@ setImgToggle()
 
 setHttp("GET", "assets/json/links.json")
 
-
+setAboutLinks()
 /*
 // Grid demo
 const gridLinks = document.querySelector(".about-links");
