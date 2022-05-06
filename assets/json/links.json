@@ -23,6 +23,11 @@
 				"title": "Tailwind",
 				"url": "https://tailwindcss.com/",
 				"fileName": "tailwind.svg"
+			},
+			{
+				"title": "ESLint",
+				"url": "https://eslint.cn",
+				"fileName": "eslint.svg"
 			}
 		],
 		[
@@ -121,127 +126,5 @@
 				"fileName": "stackblitz2.svg"
 			}
 		]
-	],
-	"link": [
-		{
-			"title": "cdnjs",
-			"url": "https://cdnjs.com",
-			"fileName": "cdnjs.svg"
-		},
-		{
-			"title": "React",
-			"url": "https://zh-hans.reactjs.org",
-			"fileName": "react.svg"
-		},
-		{
-			"title": "Vue",
-			"url": "https://v3.cn.vuejs.org",
-			"fileName": "vue.svg"
-		},
-		{
-			"title": "Ant Design",
-			"url": "https://ant.design/index-cn",
-			"fileName": "antd.svg"
-		},
-		{
-			"title": "Tailwind",
-			"url": "https://tailwindcss.com/",
-			"fileName": "tailwind.svg"
-		},
-		{
-			"title": "Stack Overflow",
-			"url": "https://stackoverflow.com",
-			"fileName": "stackoverflow.svg"
-		},
-		{
-			"title": "Echarts",
-			"url": "https://echarts.apache.org",
-			"fileName": "echarts.png"
-		},
-		{
-			"title": "Swiper",
-			"url": "https://swiperjs.com",
-			"fileName": "swiper.svg"
-		},
-		{
-			"title": "ScroolReveal",
-			"url": "https://scrollrevealjs.org",
-			"fileName": "scroolReveal.svg"
-		},
-		{
-			"title": "SortableJs",
-			"url": "http://www.sortablejs.com",
-			"fileName": "sortable.png"
-		},
-		{
-			"title": "Boxicon",
-			"url": "https://boxicons.com",
-			"fileName": "boxicon.svg"
-		},
-		{
-			"title": "Iconfont",
-			"url": "https://www.iconfont.cn",
-			"fileName": "iconfont.svg"
-		},
-		{
-			"title": "Animista",
-			"url": "https://animista.net",
-			"fileName": "animista.svg"
-		},
-		{
-			"title": "Font Awesome",
-			"url": "https://fontawesome.com",
-			"fileName": "fontawesome.svg"
-		},
-		{
-			"title": "Spline",
-			"url": "https://spline.design",
-			"fileName": "spline.png"
-		},
-		{
-			"title": "Google Fonts",
-			"url": "http://www.googlefonts.cn/english",
-			"fileName": "googlefonts.svg"
-		},
-		{
-			"title": "Webgradient",
-			"url": "https://webgradients.com/",
-			"fileName": "webgradients.png"
-		},
-		{
-			"title": "Pixabay",
-			"url": "https://pixabay.com/zh/",
-			"fileName": "pixabay.svg"
-		},
-		{
-			"title": "Webpack",
-			"url": "https://webpack.js.org/",
-			"fileName": "webpack.svg"
-		},
-		{
-			"title": "Vite",
-			"url": "https://cn.vitejs.dev/",
-			"fileName": "vite.svg"
-		},
-		{
-			"title": "Vuepress",
-			"url": "https://v2.vuepress.vuejs.org/zh/",
-			"fileName": "vuepress.png"
-		},
-		{
-			"title": "Slidev",
-			"url": "https://cn.sli.dev/",
-			"fileName": "slidev.svg"
-		},
-		{
-			"title": "Dirbbble",
-			"url": "https://dribbble.com",
-			"fileName": "dirbbble.svg"
-		},
-		{
-			"title": "StackBlitz",
-			"url": "https://stackblitz.com/",
-			"fileName": "stackblitz2.svg"
-		}
 	]
 }
