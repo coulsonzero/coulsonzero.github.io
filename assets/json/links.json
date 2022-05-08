@@ -25,6 +25,11 @@
 				"fileName": "tailwind.svg"
 			},
 			{
+				"title": "Arco Design",
+				"url": "https://arco.design",
+				"fileName": "arcoDesign.svg"
+			},
+			{
 				"title": "ESLint",
 				"url": "https://eslint.cn",
 				"fileName": "eslint.svg"
@@ -50,6 +55,11 @@
 				"title": "SortableJs",
 				"url": "http://www.sortablejs.com",
 				"fileName": "sortable.png"
+			},
+			{
+				"title": "Dirbbble",
+				"url": "https://dribbble.com",
+				"fileName": "dirbbble.svg"
 			}
 		],
 		[
@@ -87,11 +97,6 @@
 				"title": "Webgradient",
 				"url": "https://webgradients.com/",
 				"fileName": "webgradients.png"
-			},
-			{
-				"title": "Dirbbble",
-				"url": "https://dribbble.com",
-				"fileName": "dirbbble.svg"
 			}
 		],
 		[
