@@ -1,4 +1,4 @@
-function setAboutLinks() {
+const setAboutLinks = () => {
 	const tabs = document.querySelectorAll(".tabs-container input")
 	const tabLinks = document.querySelectorAll(".about-wrapper .about-links")
 
@@ -17,7 +17,7 @@ function setAboutLinks() {
 			setTimeout(() => {
 				// console.log(v.children.length)
 				noti[i].innerHTML = v.children.length
-			}, 1000)
+			}, 300)
 		})
 	}
 }

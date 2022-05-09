@@ -22,7 +22,7 @@ setTheme()
 window.addEventListener("scroll", scrollHeader)
 window.addEventListener("scroll", scrollActive)
 
-setAboutLinks()
+
 // scrollReveal()
 
 setActiveSlider()
@@ -33,7 +33,7 @@ setImgToggle(getSlider())
 setImgToggle()
 
 setHttp("GET", "assets/json/links.json")
-
+setAboutLinks()
 /*
 // Grid demo
 const gridLinks = document.querySelector(".about-links");
@@ -42,3 +42,5 @@ new Sortable(gridLinks, {
 	ghostClass: 'blue-background-class'
 });
 */
+
+
