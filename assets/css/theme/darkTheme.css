@@ -98,3 +98,7 @@
 .dark-theme :root {
     --text-color: red;
 }
+
+.dark-theme .footer-content ul li:not(:first-child) a:hover {
+    border-bottom-color: #a3a2a2;
+}
