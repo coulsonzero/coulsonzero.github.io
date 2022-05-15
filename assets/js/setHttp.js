@@ -1,6 +1,6 @@
 import getJsonData2 from "./getJsonData2.js"
 
-const setHttp = (type, url) => {
+function setHttp(type, url) {
 	// Ajax获取json数据
 	const jsonhttp = new XMLHttpRequest()
 	jsonhttp.onload = function () {
