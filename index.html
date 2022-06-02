@@ -10,7 +10,7 @@
     <meta property="og:title" content="Coulson Zero - Interactive Frontend Developer">
     <meta property="og:image" content="./assets/imgs/header/Z-logo.png">
     <meta property="og:site_name" content="Site Name">
-    <link rel="icon" href="./favicon.ico">
+    <link rel="shortcut icon" href="http://coulsonzero.github.io/favicon.ico">
     <title>CoulsonZero</title>
 
     <!--=============== SWIPER CSS ===============-->
@@ -72,12 +72,12 @@
 
         <!--==================== HOME ====================-->
         <section class="home" id="home">
-            <div class="preview-loading d-flex">
+            <!-- <div class="preview-loading d-flex">
                 <div class="bar-time"></div>
                 <div class="bar">
                     <div class="bar-loading"></div>
                 </div>
-            </div>
+            </div> -->
             <!-- ===== 文本内容 ===== -->
             <div class="content">
                 <div class="content-name">
@@ -165,37 +165,12 @@
             </div>
 
             <div class="about-wrapper">
-                <div class="about-links">
-                    <!--
-                    <img src="./assets/imgs/menu.svg" alt="" class="link-1" />
-                    <img src="./assets/imgs/logo-mark.svg" alt="" class="link-2" />
-                    <img src="./assets/imgs/menuclose.svg" alt="" class="link-2" />
-                    -->
-                </div>
+                <div class="about-links"></div>
+                <div class="about-links hidden"></div>
 
-                <div class="about-links hidden">
-                    <!-- <img src="./assets/imgs/websiteLogo/animista.svg" alt="" /> -->
-                    <!-- <img src="./assets/imgs/websiteLogo/antd.svg" alt="" /> -->
-                </div>
-
-               <div class="about-links hidden">
-                    <!-- <img src="./assets/imgs/websiteLogo/echarts.png" alt="" /> -->
-                    <!-- <img src="./assets/imgs/websiteLogo/googlefonts.svg" alt="" /> -->
-                </div>
-                <div class="about-links hidden">
-                    <!-- <img src="./assets/imgs/websiteLogo/animista.svg" alt="" /> -->
-                    <!-- <img src="./assets/imgs/websiteLogo/googlefonts.svg" alt="" /> -->
-                </div>
+                <div class="about-links hidden"></div>
+                <div class="about-links hidden"></div>
             </div>
-
-            <!--
-            <div class="about-wrapper">
-                <div class="about-links">
-                </div>
-                <img src="https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg" alt=""
-                    class="about-wrapper-bg" />
-            </div>
-            -->
             <img src="https://cpwebassets.codepen.io/assets/packs/lines-3-4541e35a1939230404d773f7eeddcc9b.svg" alt=""
                     class="about-bg" style="z-index: 10" />
         </section>
@@ -365,86 +340,6 @@
     </footer>
 
 
-    <!--
-    <footer class="footer" id="footer">
-        <div class="container footer__container">
-            <div class="footer__inner">
-                <div class="row justify-content-between">
-                    <div class="col">
-                        <a class="nav-main__link" href="#">
-                            <div class="logo-main">
-                                <div class="logo-main__text1">Coulson&nbsp;Zero</div>
-                            </div>
-                        </a>
-                        <div class="footer__socials">
-                            <div class="socials-links__link-group">
-                                <div class="socials-links__link-el"><a class="socials-links__link" href="https://www.instagram.com/juless.joy" rel="noopener" target="_blank">Instagram</a></div>
-                                <div class="socials-links__link-el"><a class="socials-links__link" href="https://t.me/juless_joy" rel="noopener" target="_blank">Telegram</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-                        <div class="menu">
-                            <div class="menu__list d-flex">
-                                <div class="menu-el menu__list-el">
-                                    <a class="menu-el__link" href="#home">
-                                        <div class="menu-el__text">Home</div>
-                                    </a>
-                                </div>
-                                <div class="menu-el menu__list-el">
-                                    <a class="menu-el__link" href="#about">
-                                        <div class="menu-el__text">About</div>
-                                    </a>
-                                </div>
-                                <div class="menu-el menu__list-el">
-                                    <a class="menu-el__link" href="#footer">
-                                        <div class="menu-el__text">Docs</div>
-                                    </a>
-                                </div>
-
-                                <div class="menu-el menu__list-el">
-                                    <a class="menu-el__link" href="#contact">
-                                        <div class="menu-el__text">Contact</div>
-                                    </a>
-                                </div>
-                                <div class="menu-el menu__list-el">
-                                    <a class="menu-el__link" href="#community">
-                                        <div class="menu-el__text">Community</div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-bottom footer__bottom">
-                    <div class="footer-bottom__menu">
-                        <div class="footer-bottom__menu-el">
-                            <a class="footer-bottom__link" href="#footer">
-                            Privacy Policy
-                            </a>
-                        </div>
-                        <div class="copyright">
-                            &copy;
-                            <script>
-                                document.write(new Date().getFullYear() + ' ');
-                            </script>
-                            coulsonzero. All rights reserved.
-                        </div>
-                    </div>
-
-
-                    <div class="footer-bottom__menu devby">
-                        <div class="footer-bottom__menu-el">Development<a class="footer-bottom__link" href="#footer">CoulsonZero</a></div>
-                        <div class="footer-bottom__menu-el">Design<a class="footer-bottom__link" href="#footer">CoulsonZero</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    -->
-
-
-
     <!--=============== SCROLL REVEAL ===============-->
     <script src="./assets/libs/scrollreveal.min.js"></script>
 
@@ -467,16 +362,9 @@
             const loading = document.querySelector('.preview-loading')
             const bar_time = document.querySelector('.bar-time')
             const bar = document.querySelector('.bar-loading')
-
-            console.log(document.readyState);
-            console.log("loading...")
             if(document.readyState != "complete"){
                 loading.classList.add('is-loading')
                 bar_time.innerHTML = 'loading ...'
-                // if(bar.style.width == '100%') {
-                    console.log("competed!")
-                    // loading.style.display = 'none'
-                // }
             }
         }
     </script>
