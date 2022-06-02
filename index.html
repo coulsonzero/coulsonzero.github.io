@@ -382,8 +382,27 @@
         }
         .is-loading {
             animation: text-blur-out 2.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0s both;
+            -webkit-animation: text-blur-out 2.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0s both;
         }
         @keyframes text-blur-out {
+            0% {
+                opacity: 1;
+                /* display: block; */
+                height: 100vh;
+            }
+            99.999999% {
+                opacity: 1;
+                /* display: block; */
+                height: 100vh;
+            }
+            100% {
+                opacity: 0;
+                display: none;
+                visibility: hidden;
+                height: 0;
+            }
+        }
+        @-webkit-keyframes text-blur-out {
             0% {
                 opacity: 1;
                 /* display: block; */
@@ -435,10 +454,14 @@
             height: 100%;
             background-image: linear-gradient(to right, #fbc2eb, #a6c1ee,#b3ffab, #12fff7);
             animation: anim 1.1s cubic-bezier(0.215, 0.610, 0.355, 1) 1s forwards;
+            -webkit-animation: anim 1.1s cubic-bezier(0.215, 0.610, 0.355, 1) 1s forwards;
         }
-        @keyframes anim {
+        @-webkit-keyframes anim {
             0% {width: 0}
             100% {width: 100%}
+        }
+        @keyframes anim {
+
         }
 
     </style>
