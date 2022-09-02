@@ -46,3 +46,20 @@ new Sortable(gridLinks, {
 
 cookieBtn()
 
+
+/**********************
+ *   sessionStorage   *
+ **********************/
+
+// const info = window.navigator.appVersion.split(" ")
+// const pc_info = info[3] + info[4]
+// const browser_info = info[info.length - 2].split("/")[0]
+// console.log(pc_info)
+// console.log(browser_info)
+// console.log(window)
+
+// window.sessionStorage["user_name"] = "coulsonzero"
+// window.sessionStorage["pc_info"] = pc_info
+// window.sessionStorage["browser_info"] = browser_info
+
+
