@@ -13,9 +13,11 @@
 @import "./components/header.css";
 @import "./components/home.css";
 @import "./components/about.css";
+@import "./components/video.css";
 @import "./components/contact.css";
 @import "./components/community.css";
 @import "./components/footer.css";
+
 
 /* ============ Container =========== */
 @import "./container/swiper-button.css";

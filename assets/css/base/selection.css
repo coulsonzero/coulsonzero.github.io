@@ -1,8 +1,11 @@
 ::selection {
     background-color: rgb(34, 34, 34);
     color: rgb(236, 231, 231);
+    /* background: #b3d4fc; */
+    text-shadow: none;
 }
+
 code::selection {
     background: gray;
-    color:rgb(209, 92, 92);
+    color: rgb(209, 92, 92);
 }
