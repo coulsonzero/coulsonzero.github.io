@@ -10,6 +10,7 @@ import getSlider from "./assets/js/getSlider.js"
 import setSwiper from "./assets/js/setSwiper.js"
 import setImgToggle from "./assets/js/setImgToggle.js"
 import setHttp from "./assets/js/setHttp.js"
+import cookieBtn from "./assets/js/cookieBtn.js"
 
 document.body.classList.remove("dark-theme")
 // setInterval(setTime, 1000);
@@ -43,4 +44,5 @@ new Sortable(gridLinks, {
 });
 */
 
+cookieBtn()
 

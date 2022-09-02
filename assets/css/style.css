@@ -23,6 +23,7 @@
 @import "./container/social.css";
 @import "./container/mac-container.css";
 @import "./container/website-tabs.css";
+@import "./container/cookie.css";
 
 /* ============ Theme =========== */
 @import "./theme/darkTheme.css";
