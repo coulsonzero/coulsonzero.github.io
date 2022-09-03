@@ -11,6 +11,7 @@ import setSwiper from "./assets/js/setSwiper.js"
 import setImgToggle from "./assets/js/setImgToggle.js"
 import setHttp from "./assets/js/setHttp.js"
 import cookieBtn from "./assets/js/cookieBtn.js"
+import mouseNav from "./assets/js/mouseNav.js"
 
 document.body.classList.remove("dark-theme")
 // setInterval(setTime, 1000);
@@ -22,8 +23,7 @@ setTheme()
 
 window.addEventListener("scroll", scrollHeader)
 window.addEventListener("scroll", scrollActive)
-
-
+document.addEventListener("mousewheel", mouseNav, false)
 // scrollReveal()
 
 setActiveSlider()

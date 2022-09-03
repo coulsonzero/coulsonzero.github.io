@@ -77,3 +77,10 @@ TweenMax.from(".home .img-toggle", 1, {
 	y: 40,
 	ease: Expo.easeInOut,
 })
+
+// TweenMax.from(".cookies", 1, {
+// 	opacity: 0,
+// 	delay: 3.8,
+// 	y: 20,
+// 	ease: Expo.easeInOut,
+// })

@@ -19,8 +19,9 @@
 }
 
 .header-hidden {
-    position: fixed;
-    top: -100px;
+    /* position: relative; */
+    /* top: -100px !important; */
+    opacity: 0 !important;
 }
 
 
@@ -109,7 +110,7 @@
     padding-left: 4rem;
     transition: all .3s ease;
     /* 渐变色字体 */
-    background: linear-gradient(120deg, rgb(132,111,244), rgb(241,118,116));
+    background: linear-gradient(120deg, rgb(132, 111, 244), rgb(241, 118, 116));
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
