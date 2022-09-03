@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 20px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) !important;
     background-color: #fff;
     border-radius: 26px;
 
@@ -12,7 +12,48 @@
     display: flex;
     align-items: center;
     z-index: 10001;
+    opacity: 0;
+    animation: fade-in-bottom 1.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) forwards;
+    animation-delay: 4s;
 }
+
+
+@keyframes fade-in-bottom {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fade-out-bottom {
+    animation: fade-out-bottom 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-out-bottom
+ * ----------------------------------------
+ */
+@keyframes fade-out-bottom {
+    0% {
+        transform: translateY(0) translateX(-50%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(20px) translateX(-50%);
+        opacity: 0;
+    }
+}
+
+
+
+
 
 .cookie-hidden {
     opacity: 0;
