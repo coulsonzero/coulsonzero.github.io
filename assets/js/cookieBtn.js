@@ -4,6 +4,7 @@ const cookie_button = document.querySelector(".cookies .ok-btn")
 
 
 function cookieBtn() {
+    cookie_container.classList.add("fade-in")
     cookie_button.addEventListener("click", () => {
         // cookie_container.classList.add("cookie-hidden")
         cookie_container.classList.add("fade-out-bottom")
