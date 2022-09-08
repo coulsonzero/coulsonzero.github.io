@@ -12,8 +12,9 @@ const scrollReveal = () => {
 	// sr.reveal(`.navbar li`, { origin: 'left', interval: 100 })
 	// sr.reveal(`.main section div`, {origin: "bottom"});
 	sr.reveal(`.about-links a`, {origin: "bottom", interval: 100, dalay: 200})
-	sr.reveal(`.footer`, {
-		origin: "bottom",
+	sr.reveal(`.footer ul`, {
+		origin: "right",
+		distance: "200px",
 		dalay: 200,
 		interval: 100,
 	})
